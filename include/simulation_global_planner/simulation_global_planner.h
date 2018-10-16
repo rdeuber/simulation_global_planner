@@ -4,6 +4,7 @@
 #include <nav_core/base_global_planner.h>
 #include <geometry_msgs/PoseStamped.h>
 #include <angles/angles.h>
+#include <tf/tf.h>
 
 #include <base_local_planner/world_model.h>
 #include <base_local_planner/costmap_model.h>

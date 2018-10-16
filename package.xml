@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+    <name>simulation_global_planner </name>
+    <version>1.0.0</version>
+    <description>
+
+        This package is a primitive global path planner. 
+
+    </description>
+    <author>Robin Deuber</author>
+    <author>rdeuber@ethz.ch</author>
+    <maintainer email="rdeuber@ethz.ch">Robin Deuber</maintainer>
+    <license>BSD</license>
+    <url>www.ethz.ch/~rdeuber</url>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <depend>cmake_modules</depend>
+
+    <depend>base_global_planner</depend>
+    <depend>costmap_2d</depend>
+    <depend>nav_core</depend>
+    <depend>nav_msgs</depend>
+    <depend>pluginlib</depend>
+    <depend>roscpp</depend>
+   
+    
+    <export>
+        <nav_core plugin="${prefix}/simulation_global_planner_plugin.xml" />
+    </export>
+
+</package>
+
+

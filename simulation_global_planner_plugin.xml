@@ -1,0 +1,7 @@
+<library path="lib/libsimulation_global_planner">
+  <class name="simulation_global_planner/SimulationGlobalPlanner" type="simulation_global_planner::SimulationGlobalPlanner" base_class_type="nav_core::BaseGlobalPlanner">
+    <description>
+      A global planner simulator.
+    </description>
+  </class>
+</library>
